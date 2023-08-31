@@ -1,0 +1,158 @@
+p {
+    margin: 0;
+    line-height: 18.2px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: system-ui;
+}
+.block-main {
+    margin: 0 auto;
+    width: 263px;
+    margin-top: 92px;
+    height: 716px;
+}
+
+.block-title {
+    display: flex;
+    justify-content: space-between;
+    color: #50B810;
+    line-height: 19.6px;
+    margin-bottom: 8px;
+}
+
+.block-posts {
+    overflow: scroll;
+    height: 683px;
+}
+
+.block-title-block-image {
+    display: flex;
+    gap: 8px;
+}
+
+.block-card {
+    background-color: #F4F8FF;
+    padding: 4px;
+}
+
+.block-post {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0px 1px 2px #D0DAEB;
+}
+
+.block-post  input {
+    width: 16px;
+    height: 16px;
+    margin: 0 5px 0 0;
+    float: left;
+}
+
+.block-post  p {
+    color: #3D8FEC;
+    overflow-wrap: anywhere;
+}
+
+.block-post  p:first-letter {
+    text-transform: capitalize;
+}
+
+.block-post-header {
+    width: 235px;
+    max-height: 55px;
+}
+
+.block-post-main {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.block-post-main-time {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.block-post-main p {
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    font-weight: 400;
+    color: #555555
+}
+
+.block-post-main-time p {
+    color: #50B810;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.block-post-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-post-footer-main {
+    display: inline-flex;
+    gap: 4px;
+}
+
+.block-first-tag {
+    margin: 0 auto;
+    background-color: #B233A6;
+    border-radius: 4px;
+    height: 20px;
+}
+
+.block-first-tag p {
+    margin: 0 auto;
+    line-height: 16.8px;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3px 6px 3px 6px;
+}
+
+.block-first-tag + div {
+    height: 20px;
+    overflow: hidden;
+    display: flex;
+}
+
+.block-second-tag {
+    margin: 0 auto;
+    background-color: #EBEEF6;
+    border-radius: 4px;
+    height: 20px;
+    z-index: 1;
+}
+
+.block-second-tag p {
+    line-height: 16.8px;
+    height: 20px;
+    font-size: 12px;
+    color: #616C82;
+    padding: 3px 6px 3px 6px;
+}
+
+.block-square {
+    height: 20px;
+    width: 20px;
+    rotate: 45deg;
+    background-color: #EBEEF6;
+    position: relative;
+    left: -15px;
+    border-radius: 5px;
+}
+
+.block-post-footer-avatar {
+    width: 24px;
+    height: 24px;
+}
